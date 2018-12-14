@@ -1,0 +1,21 @@
+<view class="tmp">
+  <image src="{{musicOn?dataObj.detail_img:dataObj.music.coverImgUrl}}" class="banner"></image>
+    <image class="music_bf" src="{{musicOK?'/images/music/music-start.png':'/images/music/music-stop.png'}}" catchtap='musicQh'></image>
+  <view class="container_text">
+    <image src="{{dataObj.avatar}}"></image>
+    <text>{{dataObj.detail}}</text>
+    <text>发布于</text>
+    <text>{{dataObj.author}}</text>
+  </view>
+  <text class="company">{{dataObj.title}}</text>
+  <view class="center">
+    <image src="/images/icon/share.png" catchtap='fenxiang'></image>
+    <image src="/images/icon/collection-anti.png" wx:if="{{!isshow}}" catchtap='kzshow'></image> 
+     <image src="/images/icon/collection.png" wx:if="{{isshow}}" catchtap='kzshow'></image>
+    <view></view>
+  </view>
+  <button class="fx" open-type="share" >转发此文章</button>
+  <text class="circle">
+    {{dataObj.detail_content}}
+  </text>
+</view>

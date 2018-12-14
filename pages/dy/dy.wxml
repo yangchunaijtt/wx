@@ -1,0 +1,12 @@
+<!--pages/dy/dy.wxml-->
+<view class="tmp">
+  <image src="/images/index/cart.jpg" class="banner"></image>
+  <view class="sj">
+    <text>片名：楚门的世界</text>
+    <text>剧情：爱情</text>
+    <text>产地：美国</text>
+    <text>评分：9.6</text>
+  </view>
+  <text class="dyjs">电影介绍：测试数据测试数据测试数据测试数据测试数据</text>
+  <text class="btn">点击观看</text>
+</view>

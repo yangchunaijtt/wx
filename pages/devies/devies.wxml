@@ -1,0 +1,11 @@
+<view wx:for="{{dataa}}"  wx:key="{{index}}">
+  <navigator class="dy" url="/pages/dy/dy?index={{index}}">
+    <image src="{{item.images.large}}" class="banner"></image>
+    <view class="circle">
+      <text class="circle_dy">片名：{{item.original_title}}</text>
+      <text class="circle_zy">{{item.genres[0]}}：{{item.genres[1]}}</text>
+      <text class="circle_sysj">产地：{{item.countries[0]}}</text>
+    </view>
+    <text class="pf">{{item.rating.average}}</text>
+  </navigator>
+</view>

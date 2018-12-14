@@ -1,0 +1,8 @@
+<view class="indexContainer">
+  <image src="{{userInfo.avatarUrl}}" class="avatar"> </image>
+  <button bindgetuserinfo='handleGetUserInfo' open-type="getUserInfo" style='display:{{isShow?"block":"none"}}'>获取用户登录信息</button>
+  <text class="username">hello {{userInfo.nickName}}</text>
+  <view class="goStudy" catchtap='hadleClick'>
+    <text class="handleParent">开启小程序之旅</text>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+/* pages/dy/dy.wxss */
+.tmp{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.banner{
+  width:400rpx;
+  height:500rpx;
+  margin:30rpx 0;
+}
+.sj{
+   display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin:20rpx 0 ;
+  font-size:32rpx;
+}
+.sj text{
+  margin:6rpx 0 ;
+}
+.dyjs{
+   width:80%;
+   margin:20rpx 10%;
+   text-align: center;
+   font-size:36rpx;
+
+}
+.btn{
+  width:200rpx;
+  height:80rpx;
+  border:1rpx solid #666;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 20rpx;
+  margin-top:30rpx;
+}

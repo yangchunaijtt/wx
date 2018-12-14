@@ -1,0 +1,19 @@
+<template name="msgItem">
+  <view class="tmp">
+    <view  class="tmp_header">
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <text>{{title}}</text>
+    <image src="{{detail_img}}"  class="tmp_center"></image>
+    <text  class="tmp_circle">
+      {{detail_content}}
+    </text>
+    <view class="tmp_footer">
+      <image src="{{detail_love_image1}}"></image>
+      <text>{{love_count}}</text>
+      <image src="{{detail_love_image2}}"></image>
+      <text>{{attention_count}}</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,35 @@
+.dy {
+  display: flex;
+  width:100%;
+  height:200rpx;
+  margin-bottom: 20rpx;
+ 
+}
+.banner{
+  width:150rpx;
+  height:150rpx;
+  margin:20rpx;
+}
+.circle{
+  display: inline-flex;
+  flex-direction:column;
+  margin-top:30rpx;
+  font-size:32rpx;
+  width:70%;
+}
+.circle text{
+  margin:4rpx;
+}
+.circle_dy{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pf{
+  /* align-self:flex-end; */
+  width:10%;
+  margin-top:60rpx;
+  color:red;
+  font-size:40rpx;
+  font-weight: bold;
+}

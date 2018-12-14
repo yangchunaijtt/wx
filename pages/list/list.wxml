@@ -1,0 +1,23 @@
+<!-- 头部轮播图组件 -->
+<import src="/pages/template/list-template.wxml"/>
+<view class="header_lbt">
+  <swiper indicator-dots indicator-color="yellow" indicator-active-color="pink" catchtap='danner'>
+    <swiper-item >
+      <image data-index='1' src="/images/detail/carousel/01.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image data-index='0' src="/images/detail/carousel/02.jpg"></image>
+    </swiper-item>
+    <swiper-item >
+      <image data-index='2' src="/images/detail/carousel/03.jpg"></image>
+    </swiper-item>
+    <swiper-item >
+      <image data-index='3' src="/images/detail/carousel/04.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<block wx:for="{{listArr}}" wx:key='{{index}}'>
+  <view catchtap='todetail' data-index="{{index}}">
+    <template is="msgItem"  data="{{...item}}"/>
+  </view>
+</block>

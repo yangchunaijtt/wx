@@ -1,0 +1,36 @@
+.indexContainer{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin:100rpx;
+}
+.indexContainer .avatar{
+  margin:0 auto;
+  width:200rpx;
+  height:200rpx;
+  border-radius: 100rpx;
+}
+button{
+  font-size:30rpx;
+  background:#8ED145;
+  border:1px solid #999;
+}
+.indexContainer .username{
+  margin:100rpx auto;
+}
+.indexContainer .goStudy{
+  width:250rpx;
+  height:80rpx;
+  font-size:30rpx;
+  text-align: center;
+  border:1rpx solid #999;
+  border-radius: 10rpx;
+  margin:100rpx;
+}
+.indexContainer .handleParent{
+  line-height: 80rpx;
+}
+page{
+  height:100%;
+  background-color:#8ED145;
+}
